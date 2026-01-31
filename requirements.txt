@@ -1,0 +1,41 @@
+# Python Package Dependencies for Embedded Systems AI Agent
+
+# Core LangChain and LLM dependencies
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-groq>=0.1.0
+langchain-community>=0.0.30
+pypdf
+# Graph and workflow execution
+langgraph>=0.0.1
+
+# Vector store and embeddings
+langchain-chroma>=0.1.0
+langchain-huggingface>=0.0.1
+chromadb>=0.3.0
+sentence-transformers>=2.2.0
+
+# Document processing
+PyPDF2>=3.0.0
+
+# Web search
+ddgs>=2.0.0
+
+# LLM provider API
+groq>=0.4.0
+
+# Async support
+aiofiles>=23.0.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Web UI
+streamlit>=1.28.0
+streamlit-ace>=0.1.1
+requests>=2.31.0
+beautifulsoup4>=4.12.0
